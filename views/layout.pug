@@ -1,0 +1,35 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title MyPage
+    link(rel='stylesheet', type='text/css', href='css/style.css')
+  body
+    .container
+      .head
+        h2 My page
+        .menu.not-printable
+          .menu-item
+            p.menu-item-name Menu
+            .menu-items
+              .menu-item
+                p.menu-item-name
+                  a(href='/') Main page
+              .menu-item
+                p.menu-item-name Сreation
+                .menu-items
+                  .menu-item
+                    p.menu-item-name
+                      a(href='/poems') Poems
+                  .menu-item
+                    p.menu-item-name
+                      a(href='/about') About me
+              .menu-item
+                p.menu-item-name Coding
+                .menu-items
+                  .menu-item
+                    p.menu-item-name
+                      a(href='/math') Math + SVG
+    .page
+        .block-content
+            block content
